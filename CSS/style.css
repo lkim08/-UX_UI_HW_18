@@ -1,0 +1,9 @@
+.mySkills {
+    background-color: blueviolet;
+    display: flex;
+}
+
+.section1, .section2, .section3 {
+    width:33%;
+    display: flex;
+}
