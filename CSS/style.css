@@ -1,9 +1,105 @@
-.mySkills {
-    background-color: blueviolet;
-    display: flex;
+.header0 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    font-size: 40px;
+    color: rgb(101, 99, 99)
 }
 
-.section1, .section2, .section3 {
-    width:33%;
-    display: flex;
+.flexContainer {
+    text-align: center;
 }
+
+.mySkills {
+    display: flex;
+    text-align: center;
+}
+
+
+.section1, .section2, .section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.child1, .child2, .child3 {
+    float:left;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(117, 117, 117)
+  }
+  
+.child1 {
+    background-color: rgb(232, 251, 255);
+    margin-left: 54px;
+    margin-right: 15px;
+    padding-bottom: 20px;
+}
+
+.child2 {
+    background-color: rgb(232, 251, 255);
+    margin-left:24px;
+    margin-right: 15px;
+    padding-bottom: 20px;
+}
+
+.child3 {
+    background-color: rgb(232, 251, 255);
+    margin-left: 24px;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  h1{
+    font-size: 40px;
+    color: rgb(101, 99, 99)
+  }
+
+  .myWork {
+    margin-left: 2px; 
+    margin-top: 100px; 
+    margin-right: 45px; 
+    margin-bottom: -5px; 
+  }
+
+  .class1 {
+    border: 1px solid #FFF3F3;
+    width: 40%;
+    height: 150px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(117, 117, 117);
+    background-color: #FFF3F3;
+  }
+
+  .class2 {
+    border: 1px solid #F3FBFF;
+    width: 40%;
+    height: 150px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(117, 117, 117);
+    background-color: #F3FBFF;
+  }
+
+  .class3 {
+    border: 1px solid #FFF1EA;
+    width: 40%;
+    height: 150px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(117, 117, 117);
+    background-color: #FFF1EA;
+  }
