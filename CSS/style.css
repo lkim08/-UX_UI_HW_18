@@ -22,21 +22,31 @@ body {
 }
 
 .navigation {
-    width: 73%;
-    width: 73%;
+    width: 79%;
     margin-left: 10%;
     margin-right: 0%;
+    display: flex;
     justify-content: space-between;
-    text-align: end;
+    align-items: center;
     background-color: #FFFEF2;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 201, 201);
+    text-transform: uppercase;
 }
 
 h1 {
     font-size: 3.5rem;
     text-align: center;
 }
-
-
 
 
 ul {
@@ -199,10 +209,11 @@ h8 {
 
 .footer {
     background-color: #ffffff;
-    margin-right: 15px;
-    width: 100%;
+    margin: 0;
+    width: 90%;
     color: rgb(255, 201, 201);
     text-align: end;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1000px) {
