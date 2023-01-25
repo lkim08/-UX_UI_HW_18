@@ -22,8 +22,8 @@ body {
 }
 
 .navigation {
-    width: 79%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 0%;
     margin-right: 0%;
     display: flex;
     justify-content: space-between;
@@ -53,6 +53,11 @@ nav ul li a.inline-block1:before {
     bottom: -6px;
 }
 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h1 {
     font-size: 3.5rem;
     text-align: center;
@@ -60,8 +65,8 @@ h1 {
 
 
 ul {
-    width: 50%;
-    margin-left: auto;
+    width: 20%;
+    margin-right: 10%;
 }
     
 .inline-blockLogo {
@@ -176,7 +181,7 @@ h6{
 .class1 {
     border: 1px solid #FFF3F3;
     width: 40%;
-    height: 339px;
+    height: 367px;
     padding: 50px;
     margin-bottom: 3%;
     margin-left: auto;
@@ -198,7 +203,7 @@ h6{
 .class2 {
     border: 1px solid #F3FBFF;
     width: 40%;
-    height: 318px;
+    height: 342px;
     padding: 50px;
     margin-bottom: 3%;
     margin-left: auto;
@@ -246,6 +251,26 @@ h8 {
     max-width: 20%;
     max-height: 20%
     }
+}
 
+@media screen and (max-width: 768px) {
+    .flexContainer { 
+        display: 
+    }
+    
+    .workGrid { 
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    } 
+
+    .class1 {
+        height: 189px;
+
+    }
+
+    .class2 {
+        height: 266px;
+    }
 
 }
