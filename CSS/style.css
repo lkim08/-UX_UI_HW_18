@@ -16,9 +16,10 @@ body {
 
 .placeholder {
     display: block;
-    margin-left: auto;
+    left: -60%;
     margin-right: auto;
     width:50%;
+    position: absolute;
 }
 
 .navigation {
@@ -83,7 +84,7 @@ ul {
 .header0 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: auto;
     width: 10em;
     font-size: 40px;
     color: rgb(101, 99, 99)
@@ -93,12 +94,13 @@ ul {
     width: 500px;
     margin: 0 auto;
     color:rgb(101, 99, 99);
+    position: relative;
 }
 
 .DownloadResume {
     margin: 0;
     position: absolute;
-    top: 70%;
+    top: 220px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -175,7 +177,6 @@ h6{
     margin-left: 2px; 
     margin-top: 40px; 
     margin-right: 35px; 
-    margin-bottom: 5px; 
 }
 
 .class1 {
@@ -203,7 +204,7 @@ h6{
 .class2 {
     border: 1px solid #F3FBFF;
     width: 40%;
-    height: 342px;
+    height: 362px;
     padding: 50px;
     margin-bottom: 3%;
     margin-left: auto;
